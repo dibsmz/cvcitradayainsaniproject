@@ -1,15 +1,15 @@
 ---
-deployment:  
-  tasks:  
-    - export DEPLOYPATH=/home/u3864172/public_html/  
-    - /bin/cp -R css $DEPLOYPATH  
-    - /bin/cp -R fonts $DEPLOYPATH  
-    - /bin/cp -R img $DEPLOYPATH  
-    - /bin/cp -R js $DEPLOYPATH  
-    - /bin/cp -R scss $DEPLOYPATH  
-    - /bin/cp about.html $DEPLOYPATH  
-    - /bin/cp contact.html $DEPLOYPATH  
-    - /bin/cp index.html $DEPLOYPATH  
-    - /bin/cp project-details.html $DEPLOYPATH  
-    - /bin/cp README.md $DEPLOYPATH  
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/citraday/public_html/
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp project-details.html $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
     - /bin/cp service-details.html $DEPLOYPATH
